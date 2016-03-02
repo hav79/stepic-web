@@ -1,0 +1,8 @@
+127.0.0.1 GET /uploads HTTP/1.1 404
+127.0.0.1 GET /uploads/school.jpg HTTP/1.1 404
+127.0.0.1 GET /img/school.jpg HTTP/1.1 200
+127.0.0.1 GET /uploads/school.jpg HTTP/1.1 404
+127.0.0.1 GET /uploads/school.jpg HTTP/1.1 200
+127.0.0.1 GET /uploads/READMEmd HTTP/1.1 200
+127.0.0.1 GET /READMEmd HTTP/1.1 404
+127.0.0.1 GET /README.md HTTP/1.1 404
