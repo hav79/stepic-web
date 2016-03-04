@@ -6,3 +6,6 @@
 127.0.0.1 GET /uploads/READMEmd HTTP/1.1 200
 127.0.0.1 GET /READMEmd HTTP/1.1 404
 127.0.0.1 GET /README.md HTTP/1.1 404
+127.0.0.1 GET /uploads.test.js HTTP/1.1 404
+127.0.0.1 GET /uploads/test.js HTTP/1.1 200
+127.0.0.1 GET /uploads/test.js HTTP/1.1 304
