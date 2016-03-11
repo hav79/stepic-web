@@ -1,7 +1,7 @@
 def app(environ, start_response):
     
     params_str = environ["QUERY_STRING"]
-    data = "\n".join(params_str.split("&"))    
+    data = [s + '\n' for s in params_str.split("&")]
     status = '200 OK'
     response_headers = [
         ('Content-type','text/plain'),
