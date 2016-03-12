@@ -3,3 +3,4 @@
 2016/03/02 19:26:09 [error] 14326#0: *3 open() "/mnt/Data/hav/Projects/stepic/web/public/README.md" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /README.md HTTP/1.1", host: "localhost"
 2016/03/02 19:36:07 [error] 14326#0: *4 open() "/mnt/Data/hav/Projects/stepic/web/public/uploads.test.js" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /uploads.test.js HTTP/1.1", host: "localhost"
 2016/03/10 16:10:28 [info] 949#0: *1 client 192.168.1.1 closed keepalive connection
+2016/03/12 13:36:12 [info] 950#0: *2 client 192.168.1.1 closed keepalive connection
